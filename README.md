@@ -1,4 +1,4 @@
-Getting and Cleaning Data course from Data Science
+# Getting and Cleaning Data course from Data Science
 Course Assignment
 
 You should create one R script called run_analysis.R that does the following.
@@ -9,14 +9,16 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Steps on how to work the script to create tidy dataset
+## Steps on how to work the script to create tidy dataset
 
 Download the zip file into your Working Directory (the filepath is the same as your Working Directory in R). You'll have a UCI HAR Dataset folder.
 Put run_analysis.R in the parent folder of UCI HAR Dataset, then set it as your working directory using setwd() function in RStudio.
 Run source("run_analysis.R"), then it will generate a new file tidydataset.txt in your working directory.
 
-Dependencies
+## Dependencies
 
-run_analysis.R file . It utilizes reshape2 and data.table.
+run_analysis.R file . It utilizes reshape2 and data.table packages
+
+## How to run the code
 
 Run the code in R
